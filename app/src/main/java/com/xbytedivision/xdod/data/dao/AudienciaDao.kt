@@ -12,7 +12,7 @@ interface AudienciaDao {
     @Insert(onConflict = OnConflictStrategy.ABORT)
     fun save(audiencia: AudienciaEntity)
 
-    @Query("SELECT * FROM Audiencia WHERE id = :id")
+    @Query("SELECT * FROM Audiencia WHERE audienciaId = :id")
     fun get(id: Long): AudienciaEntity
 
     @Query("SELECT * FROM Audiencia")

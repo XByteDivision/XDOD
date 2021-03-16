@@ -12,7 +12,7 @@ interface PessoaDao {
     @Insert(onConflict = OnConflictStrategy.ABORT)
     fun save(pessoa: PessoaEntity)
 
-    @Query("SELECT * FROM Pessoa WHERE id = :id")
+    @Query("SELECT * FROM Pessoa WHERE pessoaId = :id")
     fun get(id: Long): PessoaEntity
 
     @Query("SELECT * FROM Pessoa")

@@ -12,9 +12,9 @@ interface EnderecoDao {
     @Insert(onConflict = OnConflictStrategy.ABORT)
     fun save(endereco: EnderecoEntity)
 
-    @Query("SELECT * FROM Audiencia WHERE id = :id")
+    @Query("SELECT * FROM Endereco WHERE enderecoId = :id")
     fun get(id: Long): EnderecoEntity
 
-    @Query("SELECT * FROM Audiencia")
+    @Query("SELECT * FROM Endereco")
     fun getList():List<EnderecoEntity>
 }

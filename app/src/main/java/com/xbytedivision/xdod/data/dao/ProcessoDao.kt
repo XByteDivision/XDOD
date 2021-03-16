@@ -12,9 +12,9 @@ interface ProcessoDao {
     @Insert(onConflict = OnConflictStrategy.ABORT)
     fun save(processo: ProcessoEntity)
 
-    @Query("SELECT * FROM Audiencia WHERE id = :id")
+    @Query("SELECT * FROM Processo WHERE processoId = :id")
     fun get(id: Long): ProcessoEntity
 
-    @Query("SELECT * FROM Audiencia")
+    @Query("SELECT * FROM Processo")
     fun getList():List<ProcessoEntity>
 }

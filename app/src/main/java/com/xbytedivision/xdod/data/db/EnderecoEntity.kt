@@ -1,20 +1,28 @@
 package com.xbytedivision.xdod.data.db
 
+import androidx.room.ColumnInfo
 import androidx.room.Entity
+import androidx.room.ForeignKey
 import androidx.room.PrimaryKey
 import com.google.gson.annotations.SerializedName
-
+import com.xbytedivision.xdod.data.model.Pessoa
+/*
+@Entity(tableName = "Endereco",foreignKeys =
+[ForeignKey(
+    entity = Pessoa::class,
+    parentColumns = arrayOf("id"),
+    childColumns = arrayOf("pessoaId"),
+    onDelete = ForeignKey.CASCADE)])*/
 @Entity(tableName = "Endereco")
 data class EnderecoEntity(
 
-    @SerializedName("id") @PrimaryKey val id_endereco: Int,
-    @SerializedName("id_pessoa") val id_pessoa: Int,
-    @SerializedName("logradouro") val logradouro: String,
-    @SerializedName("numero") val data_nascimento: String,
-    @SerializedName("estado") val estado: String,
-    @SerializedName("cidade") val cidade: String,
-    @SerializedName("bairro") val bairro: String,
-    @SerializedName("cep") val sexo: String,
-    @SerializedName("data_criacao") val data_criacao: String
-
+    @PrimaryKey val enderecoId: Long,
+    val pessoaId: Long,
+    val logradouro: String,
+    val dataNascimento: String,
+    val estado: String,
+    val cidade: String,
+    val bairro: String,
+    val sexo: String,
+    val dataCriacao: String
 )

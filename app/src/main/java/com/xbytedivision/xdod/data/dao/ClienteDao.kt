@@ -12,7 +12,7 @@ interface ClienteDao {
     @Insert(onConflict = OnConflictStrategy.ABORT)
     fun save(cliente: ClienteEntity)
 
-    @Query("SELECT * FROM Cliente WHERE id = :id")
+    @Query("SELECT * FROM Cliente WHERE clienteId = :id")
     fun get(id: Long): ClienteEntity
 
     @Query("SELECT * FROM Cliente")
