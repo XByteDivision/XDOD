@@ -1,13 +1,13 @@
-package com.xbytedivision.xdod.domain
+package com.xbytedivision.xdod.data
 
-import android.os.Parcelable
+import androidx.room.Entity
+import androidx.room.PrimaryKey
 import com.google.gson.annotations.SerializedName
-import kotlinx.android.parcel.Parcelize
 
-@Parcelize
-data class Endereco(
+@Entity(tableName = "Endereco")
+data class EnderecoEntity(
 
-    @SerializedName("id_endereco") val id_endereco: Int,
+    @SerializedName("id") @PrimaryKey val id_endereco: Int,
     @SerializedName("id_pessoa") val id_pessoa: Int,
     @SerializedName("logradouro") val logradouro: String,
     @SerializedName("numero") val data_nascimento: String,
@@ -17,4 +17,4 @@ data class Endereco(
     @SerializedName("cep") val sexo: String,
     @SerializedName("data_criacao") val data_criacao: String
 
-): Parcelable
+)

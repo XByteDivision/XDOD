@@ -1,12 +1,13 @@
-package com.xbytedivision.xdod.domain
+package com.xbytedivision.xdod.data
 
-import android.os.Parcelable
+import androidx.room.Entity
+import androidx.room.PrimaryKey
 import com.google.gson.annotations.SerializedName
-import kotlinx.android.parcel.Parcelize
 
-@Parcelize
-data class Pessoa(
+@Entity(tableName = "Cliente")
+data class ClienteEntity(
 
+    @SerializedName("id") @PrimaryKey val id_cliente: Int,
     @SerializedName("id_pessoa") val id_pessoa: Int,
     @SerializedName("nome") val nome: String,
     @SerializedName("documento") val documento: String?,
@@ -14,4 +15,4 @@ data class Pessoa(
     @SerializedName("sexo") val sexo: String?,
     @SerializedName("data_criacao") val data_criacao: String
 
-): Parcelable
+)
