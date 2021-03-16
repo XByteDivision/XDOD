@@ -6,7 +6,50 @@
     </shared>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ada709e9-7921-4b5d-8deb-f916e9b7303a" name="Default Changelist" comment="" />
+    <list default="true" id="ada709e9-7921-4b5d-8deb-f916e9b7303a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/xbytedivision/xdod/ExampleInstrumentedTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/xbytedivision/xdod/MainActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/xbytedivision/xdod/domain/Cliente.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/xbytedivision/xdod/domain/Endereco.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/xbytedivision/xdod/domain/Usuario.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/test/java/com/xbytedivision/xdod/ExampleUnitTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,7 +76,7 @@
     </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="develop" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -48,7 +91,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../SQLliteAS/FilmesFlix" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
   </component>
   <component name="RunManager">
@@ -135,7 +178,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615898190267</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Criacao">
+      <created>1615898487187</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1615898487187</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -151,14 +201,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="445" y="156" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog/0.0.1366.728/1366.0.1360.728@0.0.1366.728" timestamp="1615895961948" />
-    <state x="310" y="0" key="CommitChangelistDialog2" timestamp="1615898189721">
+    <state x="310" y="0" key="CommitChangelistDialog2" timestamp="1615898486715">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="310" y="0" key="CommitChangelistDialog2/0.0.1366.728/1366.0.1360.728@0.0.1366.728" timestamp="1615898189721" />
+    <state x="310" y="0" key="CommitChangelistDialog2/0.0.1366.728/1366.0.1360.728@0.0.1366.728" timestamp="1615898486715" />
     <state x="446" y="120" key="FileChooserDialogImpl" timestamp="1615896032668">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="446" y="120" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1360.728@0.0.1366.728" timestamp="1615896032668" />
+    <state x="129" y="55" key="MergeDialog" timestamp="1615898615175">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="129" y="55" key="MergeDialog/0.0.1366.728/1366.0.1360.728@0.0.1366.728" timestamp="1615898615175" />
+    <state x="321" y="125" key="MultipleFileMergeDialog" timestamp="1615898618465">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="321" y="125" key="MultipleFileMergeDialog/0.0.1366.728/1366.0.1360.728@0.0.1366.728" timestamp="1615898618465" />
     <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1615898203339">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -167,17 +225,21 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="492" y="277" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728/1366.0.1360.728@0.0.1366.728" timestamp="1615897752760" />
-    <state x="404" y="152" key="git4idea.merge.GitPullDialog" timestamp="1615898195529">
+    <state x="404" y="152" key="git4idea.merge.GitPullDialog" timestamp="1615898523212">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="404" y="152" key="git4idea.merge.GitPullDialog/0.0.1366.728/1366.0.1360.728@0.0.1366.728" timestamp="1615898195529" />
+    <state x="404" y="152" key="git4idea.merge.GitPullDialog/0.0.1366.728/1366.0.1360.728@0.0.1366.728" timestamp="1615898523212" />
     <state x="519" y="225" key="git4idea.rebase.GitRebaseDialog" timestamp="1615897820873">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="519" y="225" key="git4idea.rebase.GitRebaseDialog/0.0.1366.728/1366.0.1360.728@0.0.1366.728" timestamp="1615897820873" />
-    <state x="484" y="270" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1615897851153">
+    <state x="484" y="270" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1615898434513">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="484" y="270" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1366.728/1366.0.1360.728@0.0.1366.728" timestamp="1615897851153" />
+    <state x="484" y="270" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1366.728/1366.0.1360.728@0.0.1366.728" timestamp="1615898434513" />
+    <state x="443" y="153" key="git4idea.ui.GitUnstashDialog" timestamp="1615898418562">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="443" y="153" key="git4idea.ui.GitUnstashDialog/0.0.1366.728/1366.0.1360.728@0.0.1366.728" timestamp="1615898418562" />
   </component>
 </project>
