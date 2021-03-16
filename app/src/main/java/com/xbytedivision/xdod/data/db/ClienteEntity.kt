@@ -1,4 +1,4 @@
-package com.xbytedivision.xdod.data
+package com.xbytedivision.xdod.data.db
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey

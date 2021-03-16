@@ -1,10 +1,10 @@
-package com.xbytedivision.xdod.data
+package com.xbytedivision.xdod.data.db
 
 import android.content.Context
 import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
-import com.xbytedivision.xdod.data.dao.db.*
+import com.xbytedivision.xdod.data.dao.*
 
 @Database(
     entities = [
