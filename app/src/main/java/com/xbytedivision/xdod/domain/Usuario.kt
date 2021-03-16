@@ -7,10 +7,11 @@ import kotlinx.android.parcel.Parcelize
 @Parcelize
 data class Usuario(
 
-    @SerializedName("id") val id: Int,
-    @SerializedName("nome") val nome: String,
-    @SerializedName("data_nascimento") val data_nascimento: String?,
-    @SerializedName("sexo") val sexo: String?,
-    @SerializedName("data_criacao") val data_criacao: String
+    @SerializedName("id_usuario") val id_usuario: Int,
+    @SerializedName("id_pessoa") val id_pessoa: Int,
+    @SerializedName("login") val nome: String,
+    @SerializedName("senha") val data_nascimento: String,
+    @SerializedName("data_criacao") val data_criacao: String?,
+    @SerializedName("data_ultimo_acesso") val data_ultimo_acesso: String?
 
 ): Parcelable
